@@ -13,9 +13,7 @@ function MealDetails({
       <Text style={[styles.detailItem, textStyle]}>
         {complexity.toUpperCase()}
       </Text>
-      <Text style={[styles.detailItem, textStyle]}>
-        {affordability.toUpperCase()}
-      </Text>
+      <Text style={styles.detailItem}>{affordability.toUpperCase()}</Text>
     </View>
   );
 }
